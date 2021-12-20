@@ -33,6 +33,7 @@ public class ProductController {
     @GetMapping("/list")
     public R list(){
         List<Product> list = productService.list();
+
         return R.ok().data("productList", list);
     }
 
