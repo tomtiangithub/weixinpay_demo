@@ -35,7 +35,7 @@ public class ProductController {
         List<Product> list = productService.list();
         //this one
         System.out.println("分支更新11");
-
+        System.out.println("分支更新22");
         return R.ok().data("productList", list);
     }
 
