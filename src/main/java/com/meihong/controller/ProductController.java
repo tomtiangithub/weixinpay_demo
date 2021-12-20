@@ -40,6 +40,7 @@ public class ProductController {
         System.out.println("分支更新44");
         System.out.println("分支更新55");
         System.out.println("分支更新42");
+        System.out.println("分支更新42");
         return R.ok().data("productList", list);
     }
 
