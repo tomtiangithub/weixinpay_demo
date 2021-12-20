@@ -46,6 +46,7 @@ public class ProductController {
         System.out.println("主干在46行添加");
         System.out.println("分支在46行添加");
         System.out.println("主干在47行添加");
+        System.out.println("分支在47行添加");
         return R.ok().data("productList", list);
     }
 
