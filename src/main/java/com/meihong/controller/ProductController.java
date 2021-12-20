@@ -33,6 +33,8 @@ public class ProductController {
     @GetMapping("/list")
     public R list(){
         List<Product> list = productService.list();
+        //this one
+        System.out.println("分支更新1");
 
         return R.ok().data("productList", list);
     }
