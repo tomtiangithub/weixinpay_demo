@@ -42,7 +42,6 @@ public class ProductController {
         System.out.println("分支更新43");
         System.out.println("分支更新44");
         System.out.println("分支更新442");
-        System.out.println("master45");
         return R.ok().data("productList", list);
     }
 
