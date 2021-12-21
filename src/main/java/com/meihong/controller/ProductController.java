@@ -34,7 +34,7 @@ public class ProductController {
     public R list(){
         List<Product> list = productService.list();
         //this one
-        System.out.println("分支更新11");
+/*        System.out.println("分支更新11");
         System.out.println("分支更新22");
         System.out.println("分支更新33");
         System.out.println("分支更新44");
@@ -46,7 +46,7 @@ public class ProductController {
         System.out.println("主干在46行添加");
         System.out.println("分支在46行添加");
         System.out.println("主干在47行添加");
-        System.out.println("分支在47行添加");
+        System.out.println("分支在47行添加");*/
         return R.ok().data("productList", list);
     }
 
