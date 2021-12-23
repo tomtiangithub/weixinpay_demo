@@ -15,3 +15,9 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: classpath:com/meihong/mapper/xml/*.xml
+#logging:
+#  level:
+#    root: debug
+logging:
+  level:
+    root: info

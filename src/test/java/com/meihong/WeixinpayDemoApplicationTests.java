@@ -10,8 +10,8 @@ import java.security.PrivateKey;
 @SpringBootTest
 class WeixinpayDemoApplicationTests {
 
-    @Resource
-    private WxPayConfig wxPayConfig;
+//    @Resource
+//    private WxPayConfig wxPayConfig;
 
 //    @Test
 //    void getPrivateKey() {
@@ -19,5 +19,9 @@ class WeixinpayDemoApplicationTests {
 //        PrivateKey key= wxPayConfig.getPrivateKey(path);
 //        System.out.println(key);
 //    }
+        @Test
+        void contextLoads() {
+        }
+
 
 }

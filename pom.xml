@@ -40,7 +40,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <!--<version>1.18.16</version>-->
+            <version>1.18.16</version>
         </dependency>
 
         <!--mysql driver-->
@@ -114,12 +114,15 @@
         <!-- 项目打包时会将java目录中的*.xml文件也进行打包 -->
         <resources>
             <resource>
-                <directory>src/main/java</directory>
+                <directory>/src/main/java</directory>
                 <includes>
+                    <!--<include>**/*.properties</include>-->
                     <include>**/*.xml</include>
                 </includes>
                 <filtering>false</filtering>
             </resource>
+
+
         </resources>
         <plugins>
             <plugin>

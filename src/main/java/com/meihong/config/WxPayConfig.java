@@ -49,10 +49,6 @@ public class WxPayConfig {
     // APIv2密钥
     private String partnerKey;
 
-//    # 示例：私钥存储在文件
-//    PrivateKey merchantPrivateKey = PemUtil.loadPrivateKey(
-//            new FileInputStream("/path/to/apiclient_key.pem"));
-
     /**
      * 获取商户的私钥文件
      * @param filename

@@ -1,10 +1,13 @@
 package com.meihong.vo;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
+
 import java.util.HashMap;
 import java.util.Map;
 
 @Data
+@Accessors(chain = true)
 public class R {
 
     private Integer code;

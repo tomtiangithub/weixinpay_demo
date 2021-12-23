@@ -20,7 +20,6 @@ public class TestController {
 
     @GetMapping
     public R getWxPayConfig(){
-
         String mchId = wxPayConfig.getMchId();
         return R.ok().data("mchId", mchId);
     }
