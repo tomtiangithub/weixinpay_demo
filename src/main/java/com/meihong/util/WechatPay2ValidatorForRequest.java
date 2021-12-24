@@ -55,7 +55,6 @@ public class WechatPay2ValidatorForRequest {
 
             //构造验签名串
             String message = buildMessage(request);
-
             String serial = request.getHeader(WECHAT_PAY_SERIAL);
             String signature = request.getHeader(WECHAT_PAY_SIGNATURE);
 
